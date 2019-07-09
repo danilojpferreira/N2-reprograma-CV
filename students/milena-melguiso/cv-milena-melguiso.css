@@ -27,7 +27,13 @@ h5 {
 
 p {
     color: #7E459B;
+    line-height: 125%;
 
+}
+
+ul {
+    color: #7E459B;
+    line-height: 155%;
 }
 
 .LocalData{
@@ -101,7 +107,7 @@ main {
         "about about"
         "works studies"
         "works skills"
-        "works interests";
+        "interests interests";
         grid-column-gap: 5vw;
         grid-row-gap: 5vh;
         margin: 5vh 5vw;
@@ -245,13 +251,14 @@ main {
     align-items: center;
 }
 .point {
-    border: 1px solid #7E459B;
+    border: 1px solid rgb(202, 171, 219);
     border-radius: 50%;
     height: 0.5rem;
     width: 0.5rem;
     margin-left: 0.5rem;
 }
 .has-point {
+    border: 1px solid #7E459B;
     background-color: #7E459B;
 }
 /* #endregion */
