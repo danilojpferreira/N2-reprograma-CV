@@ -5,11 +5,13 @@ h1 {
 
 h2, h3, span, #intro address, #intro address a{
     color: #3A144D;
+    
 }
 
 h2 {
     font-weight: normal;
     margin: 0;
+ 
 }
 
 h3 {
@@ -25,12 +27,23 @@ h5 {
 
 p {
     color: #7E459B;
+    line-height: 125%;
+
 }
 
-ul li{
+ul {
     color: #7E459B;
+    line-height: 155%;
 }
 
+.LocalData{
+    color: #3A144D;
+    margin-left: 5%;
+    font-weight: normal;
+    font-size: 90%;
+    line-height: 155%;
+   
+}
 address a {
     color: white;
 }
@@ -93,7 +106,8 @@ main {
         grid-template-areas:"intro intro"
         "about about"
         "works studies"
-        "interests skills";
+        "works skills"
+        "interests interests";
         grid-column-gap: 5vw;
         grid-row-gap: 5vh;
         margin: 5vh 5vw;
@@ -132,9 +146,6 @@ main {
     align-items: flex-start;
 }
 #intro address li{
-    display: flex;
-    align-items: center;
-    padding: 0.2rem 0;
 }
 #intro address img{
     max-height: 2rem;
@@ -227,7 +238,8 @@ main {
     background-color: #EAD6E9;
     min-height: calc(50% - 20vh);
     width: 100%;
-    padding: 1vh 2vw;
+    padding: 2vh 2vw;
+    line-height: 150%;
 }
 #skills h2{
     font-weight: bold;
@@ -239,15 +251,19 @@ main {
     align-items: center;
 }
 .point {
-    border: 1px solid #7E459B;
+    border: 1px solid rgb(202, 171, 219);
     border-radius: 50%;
     height: 0.5rem;
     width: 0.5rem;
     margin-left: 0.5rem;
 }
 .has-point {
+    border: 1px solid #7E459B;
     background-color: #7E459B;
 }
 /* #endregion */
 
 /* #endregion */
+
+
+
